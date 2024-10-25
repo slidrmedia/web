@@ -1620,6 +1620,13 @@ p {
   pointer-events: none;
 }
 
+.iconset {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically if needed */
+  gap: 10px; /* Optional: adds space between icons */
+}
+
 /*======================================
 	Contact CSS
 ========================================*/
