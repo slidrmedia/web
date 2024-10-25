@@ -1643,6 +1643,11 @@ p {
   color: transparent; /* Ensure other icons remain unaffected */
 }
 
+.logo img {
+  width: 60px; /* Set the width to 30 pixels */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /*======================================
 	Contact CSS
 ========================================*/
