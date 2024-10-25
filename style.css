@@ -1627,6 +1627,22 @@ p {
   gap: 10px; /* Optional: adds space between icons */
 }
 
+.iconset i {
+  font-size: 40px; /* Adjust this value to make icons bigger or smaller */
+}
+
+.instagram-icon {
+  display: inline-block; /* Make it inline-block to fit the icon */
+  background: linear-gradient(45deg, #f58529, #f77737, #fd1d1d, #c32aa3, #833ab4); /* Instagram gradient */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text transparent to show the gradient */
+  font-size: 40px; /* Adjust size as needed */
+}
+
+.iconset i {
+  color: transparent; /* Ensure other icons remain unaffected */
+}
+
 /*======================================
 	Contact CSS
 ========================================*/
