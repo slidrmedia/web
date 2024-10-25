@@ -1402,7 +1402,7 @@ p {
   margin: 0;
 }
 .pricing-style-fourteen .table-list li i {
-  color: var(--primary);
+  color: var(--success);
   font-size: 16px;
   padding-right: 8px;
 }
